@@ -1,0 +1,53 @@
+.playersContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .playersTitle {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .playerCard {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .playerImage {
+    height: 150px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .playerImage img {
+    height: 100%;
+  }
+
+  .playerInfo {
+    padding: 10px;
+  }
+
+  .playerName {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .playerDetails {
+    margin-bottom: 5px;
+  }
+
+  .playerDetailValue {
+    font-weight: bold;
+  }
