@@ -9,11 +9,6 @@ const HomePage = () => {
         <title>Football App</title>
       </Head>
       <div className={styles.container}>
-        <img
-          src="/football.jpg"
-          alt="Picture of a football"
-          className={styles.image}
-        />
         <h1 className={styles.title}>Welcome to the Football App</h1>
         <p className={styles.description}>
           We provide information on the latest football news, champions league

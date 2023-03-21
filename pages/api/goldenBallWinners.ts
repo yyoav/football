@@ -1,3 +1,6 @@
+import { NextApiHandler } from 'next';
+
+
 const goldenBallWinners = [
     {
       name: 'Lionel Messi',
@@ -31,6 +34,9 @@ const goldenBallWinners = [
     },
   ];
 
-  export default function handler(req, res) {
+
+  const goldenBallWinnersHandler: NextApiHandler = (req, res) => {
     res.status(200).json(goldenBallWinners);
-  }
+  };
+
+  export default goldenBallWinnersHandler;
